@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="@string/hello_i_m_vision_avengers"
+        android:textAllCaps="false"
+        android:textColor="@color/material_on_background_emphasis_high_type"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/veuillez_s_lectionner_le_type_de_visionnage_svp"
+        android:textAllCaps="false"
+        android:textColor="@color/material_on_background_emphasis_high_type" />
+
+    // Real time prediction button
+
+    <Button
+        android:id="@+id/camera_button"
+        android:layout_width="157dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="@string/temps_r_el"
+        android:textAllCaps="false"
+        android:textColor="#212121" />
+
+    // Storage prediction button
+
+    <Button
+        android:id="@+id/storage_prediction"
+        android:layout_width="158dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="@string/stockage"
+        android:textAllCaps="false"
+        android:textColor="#212121" />
+
+</LinearLayout>

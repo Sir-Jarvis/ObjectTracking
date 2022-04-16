@@ -1,0 +1,29 @@
+item {
+  id: 1
+  name: 'Airplane'
+  display_name: 'Airplane'
+}
+
+item {
+  id: 2
+  name: 'Automobile'
+  display_name: 'Automobile'
+}
+
+item {
+  id: 3
+  name: 'Bird'
+  display_name: 'Bird'
+}
+
+item {
+  id: 4
+  name: 'Cat'
+  display_name: 'Cat'
+}
+
+item {
+  id: 5
+  name: 'Horse'
+  display_name: 'Horse'
+}

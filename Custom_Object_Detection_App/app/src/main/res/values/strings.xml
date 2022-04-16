@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ImagePro</string>
+    <string name="hello_i_m_vision_avengers">Hello, I\'m Vision(Avengers)</string>
+    <string name="veuillez_s_lectionner_le_type_de_visionnage_svp">Veuillez Sélectionner le type de visionnage svp!</string>
+    <string name="temps_r_el">Temps réel</string>
+    <string name="stockage">Stockage</string>
+</resources>
